@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Space+Grotesk:wght@300..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  width: 100vw;
+}
+
+.video-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  /* For screens with width greater than or equal to 768px (tablets) */
+  .video-container {
+    height: 81vh;
+    width: auto;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 992px) {
+  /* For screens with width greater than or equal to 992px (laptops) */
+  .video-container {
+    width: auto;
+    height: 61vh;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* For screens with width greater than or equal to 1200px (laptops) */
+  .video-container {
+    width: auto;
+    height: 83vh;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* For screens with width greater than or equal to 1400px (bigger laptops) */
+  .video-container {
+    width: auto;
+    height: 53vh;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 2500px) {
+  /* For screens with width greater than or equal to 2500px (Desktop) */
+  .video-container {
+    
+    overflow: hidden;
+  }
+}
