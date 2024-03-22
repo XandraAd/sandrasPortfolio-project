@@ -18,7 +18,7 @@ const ProjectCard = ({ item,isHovered }) => {
               className=" h-full w-full object-cover object-center  md:px-16 md:flex md:justify-around lg:h-[400px] lg:w-[600px] lg:hover:bg-darkgray/[.8] 2xl:h-[800px] 2xl:w-auto " 
               alt={item.name}
             />
-            {isHovered && (
+            {(isHovered ||window.innerWidth<=1024) && (
               <div className="flex text-md absolute top-[23rem]  md:mb-6  md:-mt-20 md:ml-16 lg:top-[5rem] lg:flex-col lg:gap-6 lg:bg-darkgray/[.8] lg:w-[312px] lg:h-[400px]  2xl:h-[800px] cursor-pointer">
                 <a
                   href={item.projectLink}

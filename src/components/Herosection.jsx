@@ -39,7 +39,7 @@ const Herosection = () => {
         <div className="relative">
           <div className="video-container absolute inset-0 z-0 2xl:hidden">
             <Player
-              videoSource="/assets/bg-video.mp4"
+              videoSource="/assets/backgroundvideo.mp4"
               
               autoPlay={true}
               muted={true}
@@ -54,7 +54,7 @@ const Herosection = () => {
             <div className="grid grid-rows-2  min-h-96  relative md:order-2">
               <header>
                 <img
-                  src="/assets/portfolioImage.jpg"
+                  src="/assets/image1.jpg"
                   alt=""
                   className="py-10 px-20  h-[400px] absolute z-10 -top-10 md:order-2 md:w-[336px] md:h-[685px] md:py-0 md:px-0 md:-top-28 md:left-12 lg:w-[464px] lg:h-[692px] xl:h-[689px] xl:left-[185px] xl2:left-[257px]  xl2:h-[693px] 2xl:w-[2000px] 2xl:h-[1520px]  2xl:left-0 2xl:-top-[20rem]"
                 />
